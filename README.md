@@ -1,6 +1,9 @@
 # 💸 App Finanças Pessoais do Douglas com Vibe Coding
 
-PRD refinado no Copilot Web:
+Este projeto foi desenvolvido como um Desafio de Projeto da DIO de Vibe Coding utilizando o Lovable e o Copilot Web. A proposta é criar um
+aplicativo de organização financeira pessoal baseado em interações em linguagem natural.
+
+## 📑 PRD Refinado no Copilot Web
 
 ```markdown
 # PRD – Aplicativo de Organização de Finanças Pessoais Conversacional
@@ -38,19 +41,23 @@ O desafio é oferecer uma experiência simples, natural e motivadora, com recome
   - Linguagem acessível e educativa para facilitar o aprendizado do usuário.
 ```
 
-Interações com o Lovable: https://conversa-fin-com-amigo.lovable.app
+---
 
-> Crie um APP de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
+## 💬 Interações com o Lovable
 
-> Tentei criar uma meta chamada Reserva de Emergência, mas ela não apareceu no componente. A impressão que tive foi que apenas o Assistente Financeiro a reconheceu, poderia verificar? Além disso, onde vejo os gráficos e o extrato? Além disso, o histórico do Chat aparentemente não fica salvo.
+### Exemplos de Prompts Utilizados
+- Crie um APP de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
+- Tentei criar uma meta chamada Reserva de Emergência, mas ela não apareceu no componente. A impressão que tive foi que apenas o Assistente Financeiro a reconheceu, poderia verificar? Além disso, onde vejo os gráficos e o extrato? Além disso, o histórico do Chat aparentemente não fica salvo.
+- Adicione uma tela de Login, Registro e Esqueci a Senha para o usuário. E revise a linguagem natural, aparentemente está com erros de português. Adicione uma IA ao Chatbot Assistente Financeiro. - OBS: Essa vai ser adicionada depois.
 
-> Adicione uma tela de Login, Registro e Esqueci a Senha para o usuário. E revise a linguagem natural, aparentemente está com erros de português. Adicione uma IA ao Chatbot Assistente Financeiro. - OBS: Essa vai ser adicionada depois.
-
-Resultado Final no Lovable: https://conversa-fin-com-amigo.lovable.app
+### 🎯 Resultado Final
+[conversa-fin-com-amigo.lovable.app](https://conversa-fin-com-amigo.lovable.app)
 
 <img width="1875" height="956" alt="screencapture-conversa-fin-com-amigo-lovable-app-2025-12-12-16_18_23" src="https://github.com/user-attachments/assets/bfad9f5c-f03a-44d5-a203-b063a9cf5377" />
 
-## Funcionalidades do Aplicativo de Finanças Pessoais
+---
+
+## ⚙️ Funcionalidades do Aplicativo de Finanças Pessoais
 
 ### 1. Visão Geral Financeira Mensal
 - Exibe o saldo do mês, receitas e despesas de forma clara.
@@ -76,7 +83,9 @@ Resultado Final no Lovable: https://conversa-fin-com-amigo.lovable.app
 - Interface acessível e inclusiva para todos os perfis de usuários.
 - Suporte a leitores de tela, contraste adequado, navegação intuitiva e linguagem clara.
 
-## Reflexão
+---
+
+## 💭 Reflexão
 
 ### O que funcionou bem?
 O refinamento do PRD previamente feito no Copilot ajudou muito, pois os créditos do Lovable acabaram em apenas 3 interações.
@@ -85,5 +94,4 @@ O refinamento do PRD previamente feito no Copilot ajudou muito, pois os crédito
 Esperava poder interagir mais vezes gratuitamente com o Lovable, mas as interações feitas já foram de grande valia para aprender mais sobre Vibe Coding.
 
 ### O que aprendeu sobre conversar com IAs?
-Aprendi que é basicamente igual a conversar com uma pessoa, quanto mais detalhes e clareza você dá, melhor é a interação.
-
+Aprendi que é basicamente igual a conversar com uma pessoa: quanto mais detalhes e clareza você dá, melhor é a interação.
