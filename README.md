@@ -1,7 +1,7 @@
 # 💸 App Finanças Pessoais do Douglas com Vibe Coding
 
 Este projeto foi desenvolvido como um Desafio de Projeto da DIO de Vibe Coding utilizando o Lovable e o Copilot Web. A proposta é criar um
-aplicativo de organização financeira pessoal baseado em interações em linguagem natural.
+Aplicativo de Organização Financeira Pessoal baseado em interações em linguagem natural.
 
 ## 📑 PRD Refinado no Copilot Web
 
@@ -41,19 +41,35 @@ O desafio é oferecer uma experiência simples, natural e motivadora, com recome
   - Linguagem acessível e educativa para facilitar o aprendizado do usuário.
 ```
 
+⚠️ **Aviso Importante de Segurança**
+
+⚠️ **Leia antes de usar**
+
+**Ele não deve ser utilizado para gerenciar dados financeiros reais ou informações sensíveis.** Este aplicativo foi desenvolvido como parte de um **desafio educacional do bootcamp da DIO.me** e tem caráter de **portfólio**. 
+
+- Use **e-mails fictícios** e **senhas diferentes da sua principal** ao testar.  
+- O foco aqui é demonstrar habilidades técnicas e criatividade, não oferecer um produto final pronto para produção.  
+- Em um cenário real, seriam aplicadas medidas adicionais de segurança como **Row Level Security (RLS)**, **proteção contra senhas vazadas** e **monitoramento contínuo**.
+
 ---
 
 ## 💬 Interações com o Lovable
 
 ### Exemplos de Prompts Utilizados
-- Crie um APP de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
-- Tentei criar uma meta chamada Reserva de Emergência, mas ela não apareceu no componente. A impressão que tive foi que apenas o Assistente Financeiro a reconheceu, poderia verificar? Além disso, onde vejo os gráficos e o extrato? Além disso, o histórico do Chat aparentemente não fica salvo.
-- Adicione uma tela de Login, Registro e Esqueci a Senha para o usuário. E revise a linguagem natural, aparentemente está com erros de português. Adicione uma IA ao Chatbot Assistente Financeiro. - OBS: Essa vai ser adicionada depois.
+> Crie um APP de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
+
+> Tentei criar uma meta chamada Reserva de Emergência, mas ela não apareceu no componente. A impressão que tive foi que apenas o Assistente Financeiro a reconheceu, poderia verificar? Além disso, onde vejo os gráficos e o extrato? Além disso, o histórico do Chat aparentemente não fica salvo.
+
+> Dados zerados para usuários novos. Adicione uma tela de Login, Registro e Esqueci a Senha para o usuário. Adicione uma IA ao Chatbot Assistente Financeiro Inteligente que responde perguntas sobre educação financeira. Adicione uma funcionalidade de parcelas com o nome "Adicionar Compras Parceladas". Adicione a funcionalidade de apagar e editar uma Meta. E na aba de relatórios adicione mais variações de categorias de gastos, além de "Alimentação, Lazer, Transporte e Outros".
+
+> Backend: Sim, ativar Cloud. Parcelas: Registrar valor total e número de parcelas.
+
+> Adicionar lembretes, Adicionar Tema Escuro, Adicionar Extrato Completo. Aparentemente os botões de exclusão e editar de Meta não estão aparecendo. E eu preciso que, quando um usuário crie uma conta, os valores venham zerados para ele e ele mesmo os adicione. 
 
 ### 🎯 Resultado Final
 [conversa-fin-com-amigo.lovable.app](https://conversa-fin-com-amigo.lovable.app)
 
-<img width="1875" height="956" alt="screencapture-conversa-fin-com-amigo-lovable-app-2025-12-12-16_18_23" src="https://github.com/user-attachments/assets/bfad9f5c-f03a-44d5-a203-b063a9cf5377" />
+<img width="1875" height="956" alt="screencapture-conversa-fin-com-amigo-lovable-app-2025-12-13-15_43_36" src="https://github.com/user-attachments/assets/4c4c6d03-cdd8-4f7d-a843-3b3253cfdcb0" />
 
 ---
 
@@ -95,3 +111,14 @@ Esperava poder interagir mais vezes gratuitamente com o Lovable, mas as interaç
 
 ### O que aprendeu sobre conversar com IAs?
 Aprendi que é basicamente igual a conversar com uma pessoa: quanto mais detalhes e clareza você dá, melhor é a interação.
+
+---
+
+## 📬 Feedback e Suporte
+
+Se você encontrar **qualquer erro técnico** no aplicativo, fique à vontade para me enviar um e-mail em **douglascblsousa.offsec@gmail.com**. 
+Prometo responder e corrigir o problema o mais rápido possível 🚀.
+
+Além disso, sugestões de melhorias são super bem-vindas! 💡
+Sinta-se livre para compartilhar ideias que possam deixar o app ainda mais útil e divertido de usar.
+
