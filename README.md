@@ -41,18 +41,6 @@ O desafio é oferecer uma experiência simples, natural e motivadora, com recome
   - Linguagem acessível e educativa para facilitar o aprendizado do usuário.
 ```
 
-⚠️ **Aviso Importante de Segurança**
-
-⚠️ **Leia antes de usar**
-
-**Ele não deve ser utilizado para gerenciar dados financeiros reais ou informações sensíveis.** Este aplicativo foi desenvolvido como parte de um **desafio educacional do bootcamp da DIO.me** e tem caráter de **portfólio**. 
-
-- Use **e-mails fictícios** e **senhas diferentes da sua principal** ao testar.  
-- O foco aqui é demonstrar habilidades técnicas e criatividade, não oferecer um produto final pronto para produção.  
-- Em um cenário real, seriam aplicadas medidas adicionais de segurança como **Row Level Security (RLS)**, **proteção contra senhas vazadas** e **monitoramento contínuo**.
-
----
-
 ## 💬 Interações com o Lovable
 
 ### Exemplos de Prompts Utilizados
@@ -99,6 +87,22 @@ O desafio é oferecer uma experiência simples, natural e motivadora, com recome
 - Interface acessível e inclusiva para todos os perfis de usuários.
 - Suporte a leitores de tela, contraste adequado, navegação intuitiva e linguagem clara.
 
+### 7. Autenticação Local Simplificada
+- Login apenas com nome de usuário genérico, sem senha ou e-mail.  
+- Identificação armazenada em `localStorage`, garantindo funcionamento 100% offline.  
+
+### 8. Histórico de Chat Persistente
+- As conversas do usuário ficam salvas em `localStorage`.  
+- Permite retomar interações anteriores sem perder o contexto.  
+
+### 9. Gestão de Metas Avançada
+- Botões de editar e excluir metas funcionando corretamente.
+- Dados zerados para novos usuários, que podem criar suas próprias metas.
+
+### 10. Extrato Completo
+- Exibição detalhada de todas as transações do usuário.
+- Complementa os relatórios com visão granular das finanças.
+
 ---
 
 ## 💭 Reflexão
@@ -122,3 +126,17 @@ Prometo responder e corrigir o problema o mais rápido possível 🚀.
 Além disso, sugestões de melhorias são super bem-vindas! 💡
 Sinta-se livre para compartilhar ideias que possam deixar o app ainda mais útil e divertido de usar.
 
+---
+
+## 🛠️ Notas de Atualização e Correção de Bugs
+
+### Atualizações Implementadas
+- **Autenticação local simplificada**: substituição do sistema de login com senha por identificação apenas via nome de usuário, armazenado em `localStorage`.    
+- **Chatbot 100% offline**: todas as respostas são geradas localmente, sem chamadas externas ou consumo de créditos.  
+- **Expansão de tópicos financeiros**: o chatbot agora apresenta sugestões organizadas de temas que o usuário pode perguntar, como orçamento, dívidas, metas, investimentos e economia doméstica.  
+
+### Correções de Bugs
+- Correção do problema em que o botão de editar e excluir metas não aparecia em algumas sessões.  
+- Ajuste na lógica de inicialização para garantir que usuários novos comecem com dados zerados.  
+- Correção do histórico de chat não persistente: agora o histórico é salvo corretamente em `localStorage`.  
+- Ajuste na categorização automática de transações para incluir novas categorias como “Educação”, “Saúde” e “Assinaturas”.
